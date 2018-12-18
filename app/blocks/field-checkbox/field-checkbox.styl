@@ -1,0 +1,39 @@
+.field-checkbox
+	display block
+	position relative
+
+	cursor pointer
+
+.field-checkbox__input
+	position absolute
+	opacity 0
+
+.field-checkbox__text
+	display block
+	padding-left 30px
+
+	font-size 21px
+	line-height 25px
+	font-weight bold
+
+.field-checkbox__icon
+	position absolute
+	left 0
+	top 4px
+
+	width 19px
+	height 18px
+
+	background-image  url('../images/checkbox.png')
+
+.field-checkbox__input:checked ~ .field-checkbox__icon::before
+	position absolute
+	left 2px
+	bottom 1px
+	content ''
+
+	width 21px
+	height 27px
+
+	background-image  url('../images/check.png')
+
