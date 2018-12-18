@@ -1,0 +1,17 @@
+extends /blocks/layout-default/layout-default
+
+block head
+	- var pageTitle = 'Тестовое для CSSSR Project Template';
+
+block content
+	.page-container
+		header.header
+			.header__inner
+				img.header__logo.header__logo--left-side(src="assets/images/logo.png" alt="Логотип СSSSR")
+				img.header__logo.header__logo--right-side(src="assets/images/topSecret.png" alt="Печать 'Секретно'")
+				.header__title
+					img(src="assets/images/case.png" alt="Дело")
+
+		include ../blocks/content/content
+
+
