@@ -1,10 +1,3 @@
-import svg4everybody from 'svg4everybody';
-import $ from 'jquery';
-
-$(() => {
-	svg4everybody();
-});
-
 const sliderItems = document.querySelectorAll('.field-range__value');
 const sliderButton = document.querySelector('.field-range__track-btn');
 
